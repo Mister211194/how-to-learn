@@ -39,7 +39,7 @@
 }
 
 .header__subtitle{
-  margin: o;
+  margin: 0;
   position: absolute;
   line-height: 25px;
   font-size: 18px;
@@ -90,15 +90,12 @@
 }
 
 .two-columns__brief{
-  width: 175px;
-}
-
-.two-columns__brief_mail-problem-training{
   margin: 0;
   color: #2f80ed;
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
+  width: 175px;
 }
 
 .two-columns__main-text{
@@ -267,6 +264,7 @@
 
 .kaufman__triangle{
   background-image: url(../images/kaufman-triangle.svg);
+  background-size: contain;
   position: absolute;
   width: 877px;
   height: 877px;
