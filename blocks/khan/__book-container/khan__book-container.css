@@ -1,0 +1,7 @@
+.khan__book-container{
+  overflow: hidden;
+  height: 608px;
+  display: grid;
+  grid-template-columns: 620px auto;
+  gap: 48px;
+}
